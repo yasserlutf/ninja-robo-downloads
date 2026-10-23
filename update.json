@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "applicationId": "nerd.forex.ninjaroboautotrader",
+  "channel": "stable",
+  "versionCode": 3,
+  "versionName": "1.2.0",
+  "minSdk": 33,
+  "apkUrl": "https://github.com/yasserlutf/ninja-robo-downloads/releases/download/v1.2.0/Ninja-Robo.apk",
+  "releaseUrl": "https://github.com/yasserlutf/ninja-robo-downloads/releases/tag/v1.2.0",
+  "notes": [
+    "Compact Markets and Trades with dedicated pair settings and expandable trade details.",
+    "Simplified Settings and Appearance selection.",
+    "Update notifications and a manual check under Settings \u2192 App updates."
+  ],
+  "apkSha256": "0fb617c1dc30c3c5b1f36c1ceabbed0932b28ce50c82fa1b7d69f0629bb10a75",
+  "signingCertificateSha256": "84b305ebc62feb24a16212bdd75e9e676996107055706f87fbad0d728ee8d484",
+  "publishedAt": "2026-10-23T17:57:16.059876+00:00"
+}
