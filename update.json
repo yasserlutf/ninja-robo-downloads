@@ -2,18 +2,18 @@
   "schemaVersion": 1,
   "applicationId": "nerd.forex.ninjaroboautotrader",
   "channel": "stable",
-  "versionCode": 6,
-  "versionName": "1.2.3",
+  "versionCode": 7,
+  "versionName": "1.2.4",
   "minSdk": 33,
-  "apkUrl": "https://github.com/yasserlutf/ninja-robo-downloads/releases/download/v1.2.3/Ninja-Robo.apk",
-  "releaseUrl": "https://github.com/yasserlutf/ninja-robo-downloads/releases/tag/v1.2.3",
+  "apkUrl": "https://github.com/yasserlutf/ninja-robo-downloads/releases/download/v1.2.4/Ninja-Robo.apk",
+  "releaseUrl": "https://github.com/yasserlutf/ninja-robo-downloads/releases/tag/v1.2.4",
   "notes": [
-    "One Trading focus layout across the app with four colour themes.",
-    "Choose White & teal, Sunset yellow, Jet black or Neon blue in Settings \u2192 Appearance.",
-    "Sunset yellow uses white backgrounds and cards, charcoal text, pale-grey details and bright-yellow actions.",
-    "Keeps the Trading desk Home, expandable entry checks and reviewed trading controls."
+    "Sharper Trading focus typography with stronger headings and clearer compact labels.",
+    "Consistent bundled Inter font weights across all four colour themes.",
+    "Keeps the white, charcoal and yellow palette and existing compact screen layouts.",
+    "Trading strategies, reviewed settings and permissions are unchanged."
   ],
-  "apkSha256": "1f60530929879055108f12635a4ce601323c4d087d9014a73abf787a66b02c18",
+  "apkSha256": "d266dae483dbf9574614380acaa1a887fa05ea7a231941d800a94328b072c3c2",
   "signingCertificateSha256": "84b305ebc62feb24a16212bdd75e9e676996107055706f87fbad0d728ee8d484",
-  "publishedAt": "2026-10-23T19:58:45.587847+00:00"
+  "publishedAt": "2026-10-24T15:02:57.999831+00:00"
 }
