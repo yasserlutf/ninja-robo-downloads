@@ -6,7 +6,7 @@
 
 ## Install
 
-1. Use Android 13 or newer.
+1. Use Android 11 or newer.
 2. Download and open Ninja-Robo.apk.
 3. Follow Android’s installation prompt.
 4. Sign into your Ninja Robo account.
