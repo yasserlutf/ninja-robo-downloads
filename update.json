@@ -2,20 +2,20 @@
   "schemaVersion": 1,
   "applicationId": "nerd.forex.ninjaroboautotrader",
   "channel": "stable",
-  "versionCode": 12,
-  "versionName": "1.2.9",
+  "versionCode": 13,
+  "versionName": "1.2.10",
   "minSdk": 30,
-  "apkUrl": "https://github.com/yasserlutf/ninja-robo-downloads/releases/download/v1.2.9/Ninja-Robo.apk",
-  "releaseUrl": "https://github.com/yasserlutf/ninja-robo-downloads/releases/tag/v1.2.9",
+  "apkUrl": "https://github.com/yasserlutf/ninja-robo-downloads/releases/download/v1.2.10/Ninja-Robo.apk",
+  "releaseUrl": "https://github.com/yasserlutf/ninja-robo-downloads/releases/tag/v1.2.10",
   "notes": [
-    "Adds Forgot password? to sign-in and Reset password in Settings \u2192 Ninja account for email/password users.",
-    "Request a secure email link to choose a new Ninja Robo password.",
-    "Includes email validation, connection and request-limit messages, and Google sign-in guidance.",
-    "Explains why Strategy F is unavailable while awaiting a fresh compatible connector report.",
-    "This app update does not require a connector upgrade.",
-    "Existing strategies, saved permissions and account pairing are retained."
+    "F demo settings now open with editable draft amounts; saved account-specific F values take priority.",
+    "Unsaved TP/SL drafts use fresh USD conversions of this pair\u2019s saved points and lot size where available.",
+    "Missing amounts use clearly labelled demo starter values and estimated cost allowances.",
+    "Review and confirmation are still required before saving; drafts do not activate trading.",
+    "Clarifies that Astra F supports currency pairs, not gold or crypto.",
+    "This app-only update retains existing strategies, pairing and saved permissions."
   ],
-  "apkSha256": "b2d42b5cf8163f38f0ad25824f141414a27bf67646b324bcc7d1969813fc51f4",
+  "apkSha256": "335d79aea4d6be0bc7b355503dd43b69af080817a18e92774ad52e8033b20b9c",
   "signingCertificateSha256": "84b305ebc62feb24a16212bdd75e9e676996107055706f87fbad0d728ee8d484",
-  "publishedAt": "2026-10-26T13:13:17.328343+00:00"
+  "publishedAt": "2026-10-26T14:41:58.624211+00:00"
 }
