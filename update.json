@@ -2,18 +2,19 @@
   "schemaVersion": 1,
   "applicationId": "nerd.forex.ninjaroboautotrader",
   "channel": "stable",
-  "versionCode": 8,
-  "versionName": "1.2.5",
+  "versionCode": 11,
+  "versionName": "1.2.8",
   "minSdk": 30,
-  "apkUrl": "https://github.com/yasserlutf/ninja-robo-downloads/releases/download/v1.2.5/Ninja-Robo.apk",
-  "releaseUrl": "https://github.com/yasserlutf/ninja-robo-downloads/releases/tag/v1.2.5",
+  "apkUrl": "https://github.com/yasserlutf/ninja-robo-downloads/releases/download/v1.2.8/Ninja-Robo.apk",
+  "releaseUrl": "https://github.com/yasserlutf/ninja-robo-downloads/releases/tag/v1.2.8",
   "notes": [
-    "Adds Android 11 and Android 12 installation support.",
-    "Compatible update checks and connection-alert permissions on Android 11 and newer.",
-    "Keeps the sharper typography and all four colour themes.",
-    "Trading strategies, reviewed settings and trading permissions are unchanged."
+    "Adds Strategy F with local M5 EMA20/50, RSI14 recovery and FX spread rules.",
+    "F needs no Gemini service, API key or AI confidence score.",
+    "F remains demo-only, with reviewed dollar TP/SL, costs and one position at a time; requires connector 0.7.1.",
+    "Adds Neon green and Neon yellow appearance options.",
+    "Keeps Android 11 support, existing strategies, saved permissions and account pairing."
   ],
-  "apkSha256": "f1f500f7e42e803a3c5d0a2a591ad7dcf17e15166b95fb9d1eb1e9c5b07920c5",
+  "apkSha256": "9987c0351b3acf14853dc49fbbeb97fc51cd0dcb4f9dbdc7f1c99f843d440d60",
   "signingCertificateSha256": "84b305ebc62feb24a16212bdd75e9e676996107055706f87fbad0d728ee8d484",
-  "publishedAt": "2026-10-24T16:52:03.061463+00:00"
+  "publishedAt": "2026-10-26T12:01:51.261103+00:00"
 }
