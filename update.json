@@ -2,19 +2,20 @@
   "schemaVersion": 1,
   "applicationId": "nerd.forex.ninjaroboautotrader",
   "channel": "stable",
-  "versionCode": 11,
-  "versionName": "1.2.8",
+  "versionCode": 12,
+  "versionName": "1.2.9",
   "minSdk": 30,
-  "apkUrl": "https://github.com/yasserlutf/ninja-robo-downloads/releases/download/v1.2.8/Ninja-Robo.apk",
-  "releaseUrl": "https://github.com/yasserlutf/ninja-robo-downloads/releases/tag/v1.2.8",
+  "apkUrl": "https://github.com/yasserlutf/ninja-robo-downloads/releases/download/v1.2.9/Ninja-Robo.apk",
+  "releaseUrl": "https://github.com/yasserlutf/ninja-robo-downloads/releases/tag/v1.2.9",
   "notes": [
-    "Adds Strategy F with local M5 EMA20/50, RSI14 recovery and FX spread rules.",
-    "F needs no Gemini service, API key or AI confidence score.",
-    "F remains demo-only, with reviewed dollar TP/SL, costs and one position at a time; requires connector 0.7.1.",
-    "Adds Neon green and Neon yellow appearance options.",
-    "Keeps Android 11 support, existing strategies, saved permissions and account pairing."
+    "Adds Forgot password? to sign-in and Reset password in Settings \u2192 Ninja account for email/password users.",
+    "Request a secure email link to choose a new Ninja Robo password.",
+    "Includes email validation, connection and request-limit messages, and Google sign-in guidance.",
+    "Explains why Strategy F is unavailable while awaiting a fresh compatible connector report.",
+    "This app update does not require a connector upgrade.",
+    "Existing strategies, saved permissions and account pairing are retained."
   ],
-  "apkSha256": "9987c0351b3acf14853dc49fbbeb97fc51cd0dcb4f9dbdc7f1c99f843d440d60",
+  "apkSha256": "b2d42b5cf8163f38f0ad25824f141414a27bf67646b324bcc7d1969813fc51f4",
   "signingCertificateSha256": "84b305ebc62feb24a16212bdd75e9e676996107055706f87fbad0d728ee8d484",
-  "publishedAt": "2026-10-26T12:01:51.261103+00:00"
+  "publishedAt": "2026-10-26T13:13:17.328343+00:00"
 }
