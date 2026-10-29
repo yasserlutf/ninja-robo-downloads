@@ -2,20 +2,23 @@
   "schemaVersion": 1,
   "applicationId": "nerd.forex.ninjaroboautotrader",
   "channel": "stable",
-  "versionCode": 13,
-  "versionName": "1.2.10",
+  "versionCode": 32,
+  "versionName": "1.3.18",
   "minSdk": 30,
-  "apkUrl": "https://github.com/yasserlutf/ninja-robo-downloads/releases/download/v1.2.10/Ninja-Robo.apk",
-  "releaseUrl": "https://github.com/yasserlutf/ninja-robo-downloads/releases/tag/v1.2.10",
+  "apkUrl": "https://github.com/yasserlutf/ninja-robo-downloads/releases/download/v1.3.18/Ninja-Robo.apk",
+  "releaseUrl": "https://github.com/yasserlutf/ninja-robo-downloads/releases/tag/v1.3.18",
   "notes": [
-    "F demo settings now open with editable draft amounts; saved account-specific F values take priority.",
-    "Unsaved TP/SL drafts use fresh USD conversions of this pair\u2019s saved points and lot size where available.",
-    "Missing amounts use clearly labelled demo starter values and estimated cost allowances.",
-    "Review and confirmation are still required before saving; drafts do not activate trading.",
-    "Clarifies that Astra F supports currency pairs, not gold or crypto.",
-    "This app-only update retains existing strategies, pairing and saved permissions."
+    "Choose Scalping (M5), Day trading (M15/H1), or Both. Day and hybrid execution are demo-only.",
+    "Adds indicative entry, SL and TP zone previews with account, policy, quote-age and expiry checks; previews never authorize orders.",
+    "Day trading uses UTC-reset tick-volume VWAP, H1 EMA20/50 and M15 RSI50 recovery, structural stops, 2R targets and a 0.20% equity risk budget including estimated costs.",
+    "Day positions capture a 20:55 UTC exit; broker SL/TP remain active. Offline connections, broker limits and minimum lots can prevent intended entries or exits.",
+    "Includes UTC session switches, editable account-wide maximum open trades, demo Sentinel and a compact Home dashboard.",
+    "Improves phone-clock correction, connection status, open-position freshness and last-reported spread display. Order dispatch still requires fresh quotes.",
+    "Requires connector 0.8.13 for day/hybrid and zone-preview support. Configure Gemini privately; every entry retains AI, news, risk, account and broker checks.",
+    "Gemini score >=85 is an assessment, not a win probability. Live scalping needs separate explicit account approval; day/hybrid remain demo-only.",
+    "Updating the app does not select a new style or activate trading. Existing positions retain their captured management rules."
   ],
-  "apkSha256": "335d79aea4d6be0bc7b355503dd43b69af080817a18e92774ad52e8033b20b9c",
+  "apkSha256": "a4984d32c27f38e0ca618a5fd16bc7ab8d83858c10ce945be16712d50db91127",
   "signingCertificateSha256": "84b305ebc62feb24a16212bdd75e9e676996107055706f87fbad0d728ee8d484",
-  "publishedAt": "2026-10-26T14:41:58.624211+00:00"
+  "publishedAt": "2026-10-28T20:21:23.718082+00:00"
 }
