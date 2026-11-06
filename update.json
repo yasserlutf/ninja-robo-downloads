@@ -2,23 +2,22 @@
   "schemaVersion": 1,
   "applicationId": "nerd.forex.ninjaroboautotrader",
   "channel": "stable",
-  "versionCode": 32,
-  "versionName": "1.3.18",
+  "versionCode": 56,
+  "versionName": "1.3.42",
   "minSdk": 30,
-  "apkUrl": "https://github.com/yasserlutf/ninja-robo-downloads/releases/download/v1.3.18/Ninja-Robo.apk",
-  "releaseUrl": "https://github.com/yasserlutf/ninja-robo-downloads/releases/tag/v1.3.18",
+  "apkUrl": "https://github.com/yasserlutf/ninja-robo-downloads/releases/download/v1.3.42/Ninja-Robo.apk",
+  "releaseUrl": "https://github.com/yasserlutf/ninja-robo-downloads/releases/tag/v1.3.42",
   "notes": [
-    "Choose Scalping (M5), Day trading (M15/H1), or Both. Day and hybrid execution are demo-only.",
-    "Adds indicative entry, SL and TP zone previews with account, policy, quote-age and expiry checks; previews never authorize orders.",
-    "Day trading uses UTC-reset tick-volume VWAP, H1 EMA20/50 and M15 RSI50 recovery, structural stops, 2R targets and a 0.20% equity risk budget including estimated costs.",
-    "Day positions capture a 20:55 UTC exit; broker SL/TP remain active. Offline connections, broker limits and minimum lots can prevent intended entries or exits.",
-    "Includes UTC session switches, editable account-wide maximum open trades, demo Sentinel and a compact Home dashboard.",
-    "Improves phone-clock correction, connection status, open-position freshness and last-reported spread display. Order dispatch still requires fresh quotes.",
-    "Requires connector 0.8.13 for day/hybrid and zone-preview support. Configure Gemini privately; every entry retains AI, news, risk, account and broker checks.",
-    "Gemini score >=85 is an assessment, not a win probability. Live scalping needs separate explicit account approval; day/hybrid remain demo-only.",
-    "Updating the app does not select a new style or activate trading. Existing positions retain their captured management rules."
+    "Adds the Strategy tab for user-defined EMA, RSI or MACD entry rules, exits, account protection, candle checks, review and explicit demo activation. Markets contains pair configurations.",
+    "Custom strategy execution requires connector 0.8.47 and a paired USD hedging demo account. Legacy strategy entry routes are retired; existing positions retain captured management.",
+    "Fixes saved pair settings reverting after navigation and improves new-account synchronization, broker-symbol matching and recovery after app restarts.",
+    "Home displays separate technical, optional AI and calendar states so passing indicators are not mistaken for complete execution approval.",
+    "Removes obsolete Market analysis and Level 2 panels from Markets while preserving pair settings and navigation.",
+    "Fixes incorrect cached phone-clock estimates that made healthy connector and watchdog reports appear stale. Independently verifies time and automatically rechecks after reconnects or suspicious timestamps.",
+    "Keeps quote, account, broker, margin and saved risk checks unchanged. Display-clock recovery does not authorize orders or reset loss controls.",
+    "Updating preserves saved settings and does not activate a strategy, start a connector or grant live trading permission. Actual fills and fees can exceed intended exit triggers."
   ],
-  "apkSha256": "a4984d32c27f38e0ca618a5fd16bc7ab8d83858c10ce945be16712d50db91127",
+  "apkSha256": "ef878614879d538ac34beda3d93d89d4b271b66e55651ca7962b2d46a20e733a",
   "signingCertificateSha256": "84b305ebc62feb24a16212bdd75e9e676996107055706f87fbad0d728ee8d484",
-  "publishedAt": "2026-10-28T20:21:23.718082+00:00"
+  "publishedAt": "2026-11-06T22:19:40.761493+00:00"
 }
